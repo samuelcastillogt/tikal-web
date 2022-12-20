@@ -47,6 +47,10 @@
     <div class="w-full h-80 bg-sky-800 flex flex-col text-white items-center justify-center px-3">
             <h1 class="text-sm" >Mariachi Tikal de Guatemala</h1>
             <p class="text-2xl">De lo bueno lo mejor, <b>servicio</b> <b>a domicilio</b> para bodas, cumpleaños, entierros, divorcios, serenatas.</p>
+            <p class="text-2xl">
+              Llamadas y Watsapp: <p class="text-3xl text-black font-extrabold ">5903-2957</p> 
+Llamadas y Watsapp: <p class="text-3xl text-black font-extrabold">5707-3324</p>
+            </p>
             <a class='btn bg-emerald-400 rounded-full p-3 m-3 items-center  hover:bg-amber-300 hover:shadow-lg' href='tel:59032957' role='button'>Cotizar</a>
     </div>
     <div>
@@ -64,12 +68,17 @@
             <li><a href="#Qa">4. Preguntas frecuentes</a></li>
           </ul>
         </div>
-        <div class="container">
+        <div class="flex flex justify-center">
+<div class="container">
             <p>Con mas de 30 años de experiencia, nuestros mariachis son los mas buscados en <b>Guatemala</b>, nuestro telefono esta disponible las 24 horas, siempre con el mejor precio. Nuestros mariachis tienen el mejor repertorio de Guatemala y puede contratarnos por el mejor precio.</p>
         </div>
         </div>
         
-        <div id="video"></div>
+        <div id="video">
+          <div class='embed-responsive embed-responsive-16by9'>
+            <iframe class='embed-responsive-item' src='https://www.youtube.com/embed/-vChIcJQ5ac'></iframe>
+            </div>
+        </div>
     <div class='bg-sky-700 text-white py-5'>
         <div class='container'>
         <h2 class='text-2xl' id="eventos">Mariachis para su serenata, cumpleaños, boda y hasta para su divorcio.</h2>
@@ -110,17 +119,17 @@
           <h2 class="text-2xl">Otros Mariachis de interes</h2>
         </div>
         <div class="flex flex-wrap ">
-          <div class="w-64 border border-solid border-black border-b-2 p-2 rounded shadow-md m-2">
+          <div class="w-64 border border-solid border-black border-b-2 p-5 rounded shadow-md m-2">
             <img src="/img/mariachis.png" alt="mariachis guatemala" class="w-full" title="mariachis guatemala">
             <p class="m-2">Mariachis en Zona 1</p>
             <a class="button bg-green-700 text-white rounded p-2 m-2 cursor-pointer" href="./zona-1.html">Ver detalles</a>
           </div>
-          <div class="w-64 border border-solid border-black border-b-2 p-2 rounded shadow-md m-2">
+          <div class="w-64 border border-solid border-black border-b-2 p-5 rounded shadow-md m-2">
             <img src="https://mariachis.netlify.app/src/mariachi.jpg" alt="mariachis guatemala" class="w-full" title="mariachis guatemala">
             <p class="m-2">Mariachis Disponibles</p>
             <a class="button bg-green-700 text-white rounded p-2 m-2 cursor-pointer" href="https://mariachis.netlify.app/">Ver detalles</a>
           </div>
-          <div class="w-64 border border-solid border-black border-b-2 p-2 rounded shadow-md m-2">
+          <div class="w-64 border border-solid border-black border-b-2 p-5 rounded shadow-md m-2">
             <img src="https://1.bp.blogspot.com/-utOvROjMwbM/XmxZTqxsvoI/AAAAAAAACTM/MKDiJqFyOZEkKmlZQ9eQ1jKeCQrD_lL4ACPcBGAYYCw/s320/mariachis%2Beconomicos.png" alt="mariachis guatemala" class="w-full" title="mariachis guatemala">
             <p class="m-2">Mariachis economicos</p>
             <a class="button bg-green-700 text-white rounded p-2 m-2 cursor-pointer" href="https://mariachi-a-domicilio.web.app">Ver detalles</a>
@@ -149,15 +158,17 @@
             </footer>
 
         <script>
- window.addEventListener("DOMContentLoaded", function(){
-    document.getElementById("video").innerHTML=`<div class='embed-responsive embed-responsive-16by9'>
-    <iframe class='embed-responsive-item' src='https://www.youtube.com/embed/-vChIcJQ5ac'></iframe>
-    </div>`
-})
+//  window.addEventListener("DOMContentLoaded", function(){
+//     document.getElementById("video").innerHTML=`<div class='embed-responsive embed-responsive-16by9'>
+//     <iframe class='embed-responsive-item' src='https://www.youtube.com/embed/-vChIcJQ5ac'></iframe>
+//     </div>`
+// })
 document.getElementById("tabla").addEventListener("click", ()=>{
   document.querySelector("#contenido").classList.toggle("hidden")
 })
         </script>
+        </div>
+        
      
 </body>
 </html>
